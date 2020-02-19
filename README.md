@@ -3,7 +3,7 @@
 ![screenshot of Clio theme](screenshot.png)
 
 ## What is this?
-Jekyll is a template and theme based on [danromero.org](https://danromero.org). This repository is designed to be hosted on [GitHub Pages](https://pages.github.com) with [Jekyll](https://jekyllrb.com). You can read more about the [GitHub Pages + Jekyll integration](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll). Out-of-the-box the template supports:
+Clio is a template and theme based on [danromero.org](https://danromero.org). This repository is designed to be hosted on [GitHub Pages](https://pages.github.com) with [Jekyll](https://jekyllrb.com). You can read more about the [GitHub Pages + Jekyll integration](https://help.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll). Out-of-the-box the template supports:
 
 1. A homepage that displays a brief introduction and the most recent blog posts in reverse chronological order.
 2. An about page located at `/about/`.
