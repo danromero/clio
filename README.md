@@ -16,7 +16,7 @@ Jekyll is a template and theme based on [danromero.org](https://danromero.org). 
 2. Enable GitHub Pages in the repository's settings.
 3. Add future **posts** as Markdown `(.md)` files to the `_posts` folder. GitHub Pages will automatically generate the HTML.
 4. Add future **pages** (like the `/about/` page) as Markdown `(.md)` files to the main folder. GitHub Pages will automatically generate the HTML.
-5. **Update the images** in the `/assets/` folder. **If you don't, your site will be represented by a large purple square.** 🙂
+5. **Update the images** in the `/assets/` folder. **If you don't, your site will be represented by a purple square.** 🙂
 6. Add future images to the `/assets/` folder. 
 
 ## Open Graph images
