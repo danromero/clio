@@ -12,7 +12,7 @@ Clio is a template and theme based on [danromero.org](https://danromero.org). Th
 
 ## How to set up
 
-1. Clone the repository.
+1. Clone the repository. Delete `screenshot.png` from the main folder.
 2. Edit `_config.yml`. Replace the sample text for title, email, description, url, and twitter.
 3. Enable GitHub Pages in the repository's settings. If you are planning to use a custom domain, you can also set that up on the settings page.
 4. Add future **posts** as Markdown `(.md)` files to the `_posts` folder. GitHub Pages will automatically generate the HTML.
