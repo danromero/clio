@@ -1,0 +1,50 @@
+<head>
+  <meta content="text/html; charset=UTF-8" name="Content-Type" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width" />
+
+  <title>{{ site.title }}</title>
+
+  <meta property="og:site_name" content="{{ site.title }}" >
+  <meta property="og:locale" content="en_US">
+{% if page.title %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
+{% else %}
+  <meta property="og:title" content="{{ site.title }}" >
+  <meta property="og:type" content="website">
+{% endif %}
+{% if page.url %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" >
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% else %}
+  <meta property="og:url" content="{{ site.url }}" >
+  <link rel="canonical" href="{{ site.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}" >
+  <meta property="og:description" content="{{ page.description }}" >  
+{% else %}
+  <meta name="description" content="{{ site.description }}" >
+  <meta property="og:description" content="{{ site.description }}" >
+{% endif %}
+{% if page.ogimage %}
+  <meta property="og:image" content="{{ site.url }}/assets/og/{{ page.ogimage }}" >
+{% else %}
+  <meta property="og:image" content="/assets/logo.png" >
+{% endif %}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{ site.twitter }}" />
+  <meta name="twitter:creator" content="@{{ site.twitter }}" />
+
+  <meta name="theme" content="Clio 1.0" />
+  <meta name="theme_author" content="Dan Romero" />
+  <meta name="theme_url" content="https://github.com/danromero/clio" />
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS feed" href="{{ site.url }}/feed.xml" />
+  <link rel="icon" href="/assets/32.png" sizes="32x32">
+  <link rel="icon" href="/assets/192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" sizes="180x180">
+
+</head>

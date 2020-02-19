@@ -1,0 +1,11 @@
+title: Lorem Ipsum
+email: email@example.com
+description: Lorem Ipsum's website
+url: "https://example.org"
+twitter: usernamewithoutatsymbol
+
+baseurl: ""
+permalink: /:categories/:title:output_ext
+markdown: kramdown
+plugins:
+  - jekyll-feed
