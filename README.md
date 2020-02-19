@@ -13,11 +13,12 @@ Clio is a template and theme based on [danromero.org](https://danromero.org). Th
 ## How to set up
 
 1. Clone the repository.
-2. Enable GitHub Pages in the repository's settings.
-3. Add future **posts** as Markdown `(.md)` files to the `_posts` folder. GitHub Pages will automatically generate the HTML.
-4. Add future **pages** (like the `/about/` page) as Markdown `(.md)` files to the main folder. GitHub Pages will automatically generate the HTML.
-5. **Update the images** in the `/assets/` folder. **If you don't, your site will be represented by a purple square.** 🙂
-6. Add future images to the `/assets/` folder. 
+2. Edit `_config.yml`. Replace the sample text for title, email, description, url, and twitter.
+3. Enable GitHub Pages in the repository's settings. If you are planning to use a custom domain, you can also set that up on the settings page.
+4. Add future **posts** as Markdown `(.md)` files to the `_posts` folder. GitHub Pages will automatically generate the HTML.
+5. Add future **pages** (like the `/about/` page) as Markdown `(.md)` files to the main folder. GitHub Pages will automatically generate the HTML.
+6. **Update the images** in the `/assets/` folder. **If you don't, your site will be represented by a purple square.** 🙂
+67. Add future images to the `/assets/` folder. 
 
 ## Open Graph images
 The template is set up to support Open Graph images for services like [Twitter](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started). Be sure to add the image name in the [front matter](https://jekyllrb.com/docs/front-matter/) of the blog posts and the images should be uploaded to the `/assets/og/` folder. The Hello World! sample post has a functioning example.
